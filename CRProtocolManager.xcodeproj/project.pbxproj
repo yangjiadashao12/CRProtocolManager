@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FFC1CFA2060B116001E5024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1CF92060B116001E5024 /* AppDelegate.m */; };
+		7FFC1CFD2060B116001E5024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1CFC2060B116001E5024 /* ViewController.m */; };
+		7FFC1D002060B116001E5024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC1CFE2060B116001E5024 /* Main.storyboard */; };
+		7FFC1D022060B116001E5024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC1D012060B116001E5024 /* Assets.xcassets */; };
+		7FFC1D052060B116001E5024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC1D032060B116001E5024 /* LaunchScreen.storyboard */; };
+		7FFC1D082060B116001E5024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D072060B116001E5024 /* main.m */; };
+		7FFC1D122060B117001E5024 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D112060B117001E5024 /* CRProtocolManagerTests.m */; };
+		7FFC1D1D2060B117001E5024 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D1C2060B117001E5024 /* CRProtocolManagerUITests.m */; };
+		7FFC1D302060B208001E5024 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFC1D0E2060B117001E5024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFC1CED2060B116001E5024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFC1CF42060B116001E5024;
+			remoteInfo = CRProtocolManager;
+		};
+		7FFC1D192060B117001E5024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFC1CED2060B116001E5024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFC1CF42060B116001E5024;
+			remoteInfo = CRProtocolManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FFC1CF52060B116001E5024 /* CRProtocolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRProtocolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC1CF82060B116001E5024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FFC1CF92060B116001E5024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FFC1CFB2060B116001E5024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FFC1CFC2060B116001E5024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FFC1CFF2060B116001E5024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFC1D012060B116001E5024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FFC1D042060B116001E5024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFC1D062060B116001E5024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC1D072060B116001E5024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FFC1D0D2060B117001E5024 /* CRProtocolManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC1D112060B117001E5024 /* CRProtocolManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerTests.m; sourceTree = "<group>"; };
+		7FFC1D132060B117001E5024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC1D182060B117001E5024 /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC1D1C2060B117001E5024 /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
+		7FFC1D1E2060B117001E5024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC1D2E2060B208001E5024 /* CRProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFC1CF22060B116001E5024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D0A2060B117001E5024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D152060B117001E5024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFC1CEC2060B116001E5024 = {
+			isa = PBXGroup;
+			children = (
+				7FFC1CF72060B116001E5024 /* CRProtocolManager */,
+				7FFC1D102060B117001E5024 /* CRProtocolManagerTests */,
+				7FFC1D1B2060B117001E5024 /* CRProtocolManagerUITests */,
+				7FFC1CF62060B116001E5024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFC1CF62060B116001E5024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1CF52060B116001E5024 /* CRProtocolManager.app */,
+				7FFC1D0D2060B117001E5024 /* CRProtocolManagerTests.xctest */,
+				7FFC1D182060B117001E5024 /* CRProtocolManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFC1CF72060B116001E5024 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1CF82060B116001E5024 /* AppDelegate.h */,
+				7FFC1CF92060B116001E5024 /* AppDelegate.m */,
+				7FFC1CFB2060B116001E5024 /* ViewController.h */,
+				7FFC1CFC2060B116001E5024 /* ViewController.m */,
+				7FFC1D2D2060B1FA001E5024 /* CRProtocolManager */,
+				7FFC1CFE2060B116001E5024 /* Main.storyboard */,
+				7FFC1D012060B116001E5024 /* Assets.xcassets */,
+				7FFC1D032060B116001E5024 /* LaunchScreen.storyboard */,
+				7FFC1D062060B116001E5024 /* Info.plist */,
+				7FFC1D072060B116001E5024 /* main.m */,
+			);
+			path = CRProtocolManager;
+			sourceTree = "<group>";
+		};
+		7FFC1D102060B117001E5024 /* CRProtocolManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1D112060B117001E5024 /* CRProtocolManagerTests.m */,
+				7FFC1D132060B117001E5024 /* Info.plist */,
+			);
+			path = CRProtocolManagerTests;
+			sourceTree = "<group>";
+		};
+		7FFC1D1B2060B117001E5024 /* CRProtocolManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1D1C2060B117001E5024 /* CRProtocolManagerUITests.m */,
+				7FFC1D1E2060B117001E5024 /* Info.plist */,
+			);
+			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		7FFC1D2D2060B1FA001E5024 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1D2E2060B208001E5024 /* CRProtocolManager.h */,
+				7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */,
+			);
+			path = CRProtocolManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFC1CF42060B116001E5024 /* CRProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC1D212060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManager" */;
+			buildPhases = (
+				7FFC1CF12060B116001E5024 /* Sources */,
+				7FFC1CF22060B116001E5024 /* Frameworks */,
+				7FFC1CF32060B116001E5024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRProtocolManager;
+			productName = CRProtocolManager;
+			productReference = 7FFC1CF52060B116001E5024 /* CRProtocolManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FFC1D0C2060B117001E5024 /* CRProtocolManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC1D242060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManagerTests" */;
+			buildPhases = (
+				7FFC1D092060B117001E5024 /* Sources */,
+				7FFC1D0A2060B117001E5024 /* Frameworks */,
+				7FFC1D0B2060B117001E5024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFC1D0F2060B117001E5024 /* PBXTargetDependency */,
+			);
+			name = CRProtocolManagerTests;
+			productName = CRProtocolManagerTests;
+			productReference = 7FFC1D0D2060B117001E5024 /* CRProtocolManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FFC1D172060B117001E5024 /* CRProtocolManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC1D272060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManagerUITests" */;
+			buildPhases = (
+				7FFC1D142060B117001E5024 /* Sources */,
+				7FFC1D152060B117001E5024 /* Frameworks */,
+				7FFC1D162060B117001E5024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFC1D1A2060B117001E5024 /* PBXTargetDependency */,
+			);
+			name = CRProtocolManagerUITests;
+			productName = CRProtocolManagerUITests;
+			productReference = 7FFC1D182060B117001E5024 /* CRProtocolManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFC1CED2060B116001E5024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yyz;
+				TargetAttributes = {
+					7FFC1CF42060B116001E5024 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7FFC1D0C2060B117001E5024 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FFC1CF42060B116001E5024;
+					};
+					7FFC1D172060B117001E5024 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FFC1CF42060B116001E5024;
+					};
+				};
+			};
+			buildConfigurationList = 7FFC1CF02060B116001E5024 /* Build configuration list for PBXProject "CRProtocolManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFC1CEC2060B116001E5024;
+			productRefGroup = 7FFC1CF62060B116001E5024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFC1CF42060B116001E5024 /* CRProtocolManager */,
+				7FFC1D0C2060B117001E5024 /* CRProtocolManagerTests */,
+				7FFC1D172060B117001E5024 /* CRProtocolManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFC1CF32060B116001E5024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC1D052060B116001E5024 /* LaunchScreen.storyboard in Resources */,
+				7FFC1D022060B116001E5024 /* Assets.xcassets in Resources */,
+				7FFC1D002060B116001E5024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D0B2060B117001E5024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D162060B117001E5024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFC1CF12060B116001E5024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC1D302060B208001E5024 /* CRProtocolManager.m in Sources */,
+				7FFC1CFD2060B116001E5024 /* ViewController.m in Sources */,
+				7FFC1D082060B116001E5024 /* main.m in Sources */,
+				7FFC1CFA2060B116001E5024 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D092060B117001E5024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC1D122060B117001E5024 /* CRProtocolManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC1D142060B117001E5024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC1D1D2060B117001E5024 /* CRProtocolManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FFC1D0F2060B117001E5024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFC1CF42060B116001E5024 /* CRProtocolManager */;
+			targetProxy = 7FFC1D0E2060B117001E5024 /* PBXContainerItemProxy */;
+		};
+		7FFC1D1A2060B117001E5024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFC1CF42060B116001E5024 /* CRProtocolManager */;
+			targetProxy = 7FFC1D192060B117001E5024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FFC1CFE2060B116001E5024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC1CFF2060B116001E5024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FFC1D032060B116001E5024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC1D042060B116001E5024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFC1D1F2060B117001E5024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FFC1D202060B117001E5024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFC1D222060B117001E5024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FFC1D232060B117001E5024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FFC1D252060B117001E5024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRProtocolManager.app/CRProtocolManager";
+			};
+			name = Debug;
+		};
+		7FFC1D262060B117001E5024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRProtocolManager.app/CRProtocolManager";
+			};
+			name = Release;
+		};
+		7FFC1D282060B117001E5024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRProtocolManager;
+			};
+			name = Debug;
+		};
+		7FFC1D292060B117001E5024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyz.CRProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRProtocolManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFC1CF02060B116001E5024 /* Build configuration list for PBXProject "CRProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC1D1F2060B117001E5024 /* Debug */,
+				7FFC1D202060B117001E5024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC1D212060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC1D222060B117001E5024 /* Debug */,
+				7FFC1D232060B117001E5024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC1D242060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC1D252060B117001E5024 /* Debug */,
+				7FFC1D262060B117001E5024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC1D272060B117001E5024 /* Build configuration list for PBXNativeTarget "CRProtocolManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC1D282060B117001E5024 /* Debug */,
+				7FFC1D292060B117001E5024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFC1CED2060B116001E5024 /* Project object */;
+}
