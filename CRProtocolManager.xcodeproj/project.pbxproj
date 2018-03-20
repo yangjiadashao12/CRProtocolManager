@@ -15,6 +15,7 @@
 		7FFC1D082060B116001E5024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D072060B116001E5024 /* main.m */; };
 		7FFC1D122060B117001E5024 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D112060B117001E5024 /* CRProtocolManagerTests.m */; };
 		7FFC1D1D2060B117001E5024 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D1C2060B117001E5024 /* CRProtocolManagerUITests.m */; };
+		7FFC1D302060B208001E5024 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7FFC1D182060B117001E5024 /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFC1D1C2060B117001E5024 /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
 		7FFC1D1E2060B117001E5024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC1D2E2060B208001E5024 /* CRProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				7FFC1CF92060B116001E5024 /* AppDelegate.m */,
 				7FFC1CFB2060B116001E5024 /* ViewController.h */,
 				7FFC1CFC2060B116001E5024 /* ViewController.m */,
+				7FFC1D2D2060B1FA001E5024 /* CRProtocolManager */,
 				7FFC1CFE2060B116001E5024 /* Main.storyboard */,
 				7FFC1D012060B116001E5024 /* Assets.xcassets */,
 				7FFC1D032060B116001E5024 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				7FFC1D1E2060B117001E5024 /* Info.plist */,
 			);
 			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		7FFC1D2D2060B1FA001E5024 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC1D2E2060B208001E5024 /* CRProtocolManager.h */,
+				7FFC1D2F2060B208001E5024 /* CRProtocolManager.m */,
+			);
+			path = CRProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFC1D302060B208001E5024 /* CRProtocolManager.m in Sources */,
 				7FFC1CFD2060B116001E5024 /* ViewController.m in Sources */,
 				7FFC1D082060B116001E5024 /* main.m in Sources */,
 				7FFC1CFA2060B116001E5024 /* AppDelegate.m in Sources */,
